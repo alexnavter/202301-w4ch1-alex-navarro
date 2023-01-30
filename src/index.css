@@ -51,14 +51,22 @@ h2 {
 
 .main-header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  gap: 20px;
 
   text-align: center;
 }
 
 .main-title {
   font-weight: 500;
+}
+
+.info-text {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .controls {
