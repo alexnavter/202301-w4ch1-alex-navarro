@@ -3,7 +3,7 @@ interface InfoProps {
 }
 
 export const Info = ({ text }: InfoProps): JSX.Element => {
-  return <h2 className="info-text">{text}</h2>;
+  return <p className="info-text">{text}</p>;
 };
 
 export default Info;
