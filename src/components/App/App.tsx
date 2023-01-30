@@ -4,8 +4,8 @@ function App() {
   const appTitle = "The pointing gentlemen";
 
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="container">
+      <header className="main-header">
         <Title title={appTitle} />
       </header>
     </div>
